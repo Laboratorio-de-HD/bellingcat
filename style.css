@@ -19,7 +19,8 @@ iframe {
     height: 600px;
     border: none;
 }
-    
+
+/* Botón gris */
 .boton {
     display: inline-block;
     background-color: #6c6c6c; /* Gris oscuro */
@@ -33,6 +34,27 @@ iframe {
 }
 
 .boton:hover {
-    background-color: #4a4a4a; /* Gris más oscuro al pasar el mouse */
+    background-color: #4a4a4a; /* Gris más oscuro */
 }
+
+/* ---- Diseño responsive para móviles ---- */
+@media (max-width: 768px) {
+    img, iframe {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    iframe {
+        height: 400px; /* más pequeño para celular */
+    }
+
+    .boton {
+        display: block;
+        width: 90%;         /* Botón ocupa casi todo el ancho */
+        margin: 20px auto;  /* Centrado */
+        font-size: 22px;
+        padding: 18px 0;
+    }
+}
+
     
