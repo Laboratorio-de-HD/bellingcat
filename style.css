@@ -57,4 +57,26 @@ iframe {
     }
 }
 
+/* Bloque de texto */
+.descripcion {
+    text-align: left;       /* Justificado a la izquierda en escritorio */
+    max-width: 80%;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Enlaces elegantes */
+.enlace {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.enlace:hover {
+    color: #000;
+}
+
+
+
     
